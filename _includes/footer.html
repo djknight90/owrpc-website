@@ -5,30 +5,16 @@
         <img class="mb-2" src="/assets/img/logo.png" alt="" width="50">
         <small class="d-block mb-3 text-muted">&copy; 1977 - {{ "today" | date: "%Y" }}</small>
       </div>
-      <div class="col-6 col-md">
-        <h5 class="text-white">{{ site.data.footer-links-1.links_list_title }}</h5>
-        <ul class="list-unstyled text-small">
-           {% for item in site.data.footer-links-1.links %}
-              <li><a class="text-muted" href="{{ item.url }}">{{ item.title }}</a></li>
-           {% endfor %}
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5 class="text-white">{{ site.data.footer-links-2.links_list_title }}</h5>
-        <ul class="list-unstyled text-small">
-           {% for item in site.data.footer-links-2.links %}
-              <li><a class="text-muted" href="{{ item.url }}">{{ item.title }}</a></li>
-           {% endfor %}
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5 class="text-white">{{ site.data.footer-links-3.links_list_title }}</h5>
-        <ul class="list-unstyled text-small">
-           {% for item in site.data.footer-links-3.links %}
-              <li><a class="text-muted" href="{{ item.url }}">{{ item.title }}</a></li>
-           {% endfor %}
-        </ul>
-      </div>
+      {% for item in site.data.footer-links.footer-links %}
+        <div class="col-6 col-md">
+          <h5 class="text-white">{{ item.title }}</h5>
+          <ul class="list-unstyled text-small">
+            {% for entry in item.subfolderitems %}
+              <li><a class="text-muted" href="{{ entry.url }}">{{ entry.page }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
     </div>
 
   </div>

@@ -1,0 +1,21 @@
+footer-links:
+  - title: Affiliates
+    subfolderitems:
+      - page: The NRA
+        url: https://nra.org.uk
+      - page: Thames Valley Guns
+        url: http://www.thamesvalleyguns.co.uk
+      - page: Target Shooter Magazine
+        url: http://www.targetshooter.co.uk
+  - title: Why OWRPC?
+    subfolderitems:
+      - page: FAQs
+        url: /piece1.html
+      - page: Something else
+        url: /piece2.html
+  - title: Contact
+    subfolderitems:
+      - page: Send a message
+        url: /contact-us.html
+      - page: Find us
+        url: /find-us.html
