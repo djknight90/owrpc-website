@@ -4,6 +4,9 @@ auto_deploy: true
 admin_path: 
 webhook_url: 
 sections:
+- type: jekyll-pages
+  label: Pages
+  create: all
 - type: directory
   path: _faqs
   label: FAQs
@@ -11,15 +14,12 @@ sections:
   match: "**/*"
   templates:
   - faq
-- type: document
-  path: _data/footer-links.yml
-  label: Footer Menu Items
 - type: jekyll-posts
   label: Posts
   create: all
-- type: jekyll-pages
-  label: Pages
-  create: all
+- type: document
+  path: _data/footer-links.yml
+  label: Footer Menu Items
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
