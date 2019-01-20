@@ -20,19 +20,11 @@ Our fullbore enthusiasts meet every month on MoD ranges at Ash in Surrey, Longmo
 We are a friendly club and welcome new members of all abilities. The only requirements are that you are a responsible person with a genuine interest in shooting sports.
 
 <div class="header mt-md-5">
-<div class="header-body">
-<div class="row align-items-center">
-<div class="col">
-
-        <!-- Pretitle -->
-    
-        <!-- Title -->
-        <h1 class="header-title">
-          Facilities
-        </h1>
-    
+  <div class="header-body">
+    <div class="row align-items-center">
+      <div class="col">
+        <h1 class="header-title">Facilities</h1>
       </div>
-    </div> <!-- / .row -->
-
-</div>
+    </div>
+  </div>
 </div>
