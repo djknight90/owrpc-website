@@ -40,7 +40,3 @@ Target rifle club in Old Windsor
 Welcome to our web site. If you live in the area and are interested in any form of target shooting then you have come to the right place. Have a look around our web site and get in touch if you’d like to join us.
 
 Target shooting is a long-established sport which can be enjoyed by people of all ages and physical ability. Some shooters are highly competitive while others participate for fun and relaxation. There is a wide range of disciplines to suit all interests and budgets, and shooting has one of the best safety records of any sport.
-
-<p class="lead">
-  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-</p>
