@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: _date/footer-links.yml
+  path: _data/footer-links.yml
   label: Footer Menu Items
 - type: jekyll-posts
   label: Posts
