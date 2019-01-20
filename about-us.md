@@ -28,3 +28,7 @@ We are a friendly club and welcome new members of all abilities. The only requir
     </div>
   </div>
 </div>
+
+**TODO** Add some content here about what facilities we have.
+
+Suggest it's something along the lines of the content that's in the PDF presentation on the current site, but embedded directly
