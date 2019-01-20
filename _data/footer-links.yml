@@ -3,10 +3,13 @@ footer-links:
     subfolderitems:
       - page: The NRA
         url: https://nra.org.uk
+        target: blank
       - page: Thames Valley Guns
         url: http://www.thamesvalleyguns.co.uk
+        target: blank
       - page: Target Shooter Magazine
         url: http://www.targetshooter.co.uk
+        target: blank
   - title: Why OWRPC?
     subfolderitems:
       - page: FAQs

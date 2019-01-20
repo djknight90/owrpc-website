@@ -10,7 +10,7 @@
           <h5 class="text-white">{{ item.title }}</h5>
           <ul class="list-unstyled text-small">
             {% for entry in item.subfolderitems %}
-              <li><a class="text-muted" href="{{ entry.url }}">{{ entry.page }}</a></li>
+              <li><a class="text-muted" target="{% if entry.target == "blank" %}blank{% endif %}" href="{{ entry.url }}">{{ entry.page }}{% if entry.target == "blank" %}<i class="fe fe-external-link ml-2"></i>{% endif %}</a></li>
             {% endfor %}
           </ul>
         </div>
