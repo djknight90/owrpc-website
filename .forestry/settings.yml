@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _date/footer-links.yml
   label: Footer Menu Items
-  match: "**/*"
 - type: jekyll-posts
   label: Posts
   create: all
