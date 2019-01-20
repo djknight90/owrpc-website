@@ -1,0 +1,11 @@
+---
+label: FAQ
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  config:
+    required: true
+  label: Question
+  name: question
+  description: This is how the question will appear on the site
