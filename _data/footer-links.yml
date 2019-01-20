@@ -10,12 +10,12 @@ footer-links:
       - page: Target Shooter Magazine
         url: http://www.targetshooter.co.uk
         target: blank
-  - title: Why OWRPC?
+  - title: More Info
     subfolderitems:
       - page: FAQs
-        url: /piece1.html
-      - page: Something else
-        url: /piece2.html
+        url: /faqs.html
+      - page: Downloads
+        url: /downloads.html
   - title: Contact
     subfolderitems:
       - page: Send a message

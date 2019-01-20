@@ -24,3 +24,41 @@ When your FAC arrives you may then purchase your first sporting firearm! Club me
 Many members reload their own ammunition to increase accuracy and reduce cost, and will be pleased to advise you should you decide to follow suit.
 
 For further information on joining the Club, arranging a visit or submitting an application, please contact us. Please note that, unless you already hold an FAC, you must join the Club before you can shoot with us.
+
+<div class="card">
+  <div class="card-header">
+    <div class="row align-items-center">
+      <div class="col">
+        <h4 class="card-header-title">Downloads</h4>
+      </div>
+    </div>
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-lg list-group-flush list my--4">
+      {% for item in site.data.membership_docs.files %}
+      <li class="list-group-item px-0">
+        <div class="row align-items-center">
+          <div class="col-auto">
+            <div class="avatar avatar-lg">
+              <span class="avatar-title rounded bg-white text-secondary">
+                <span class="fe fe-file-text"></span>
+              </span>
+            </div>
+          </div>
+          <div class="col ml--2">
+            <h4 class="card-title mb-1 name"><a href="{{ item.path }}">{{ item.title }}</a></h4>
+            <p class="card-text small text-muted mb-1">{{ item.size }} ({{ item.type }})</p>
+            <p class="card-text small text-muted">{{ item.description }}</p>
+          </div>
+          <div class="col-auto">
+            <a href="{{ item.path }}" class="btn btn-sm btn-white d-none d-md-inline-block">View in Browser</a>
+          </div>
+          <div class="col-auto">
+            <a href="{{ item.path }}" class="btn btn-sm btn-primary d-none d-md-inline-block" download>Download</a>
+          </div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+---
+layout: default
+title: "FAQs"
+---
+
+{% include page-header.html %}
+
+<div class="accordion card" id="faq-accordion">
+  {% for faq in site.faqs  %}
+  <div class="">
+    <div class="card-header" id="heading{{ forloop.index }}">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse{{ forloop.index }}" aria-expanded="false" aria-controls="collapse{{ forloop.index }}">
+          {{ faq.question }}
+        </button>
+      </h2>
+    </div>
+    <div id="collapse{{ forloop.index }}" class="collapse" aria-labelledby="heading{{ forloop.index }}" data-parent="#faq-accordion">
+      <div class="card-body ml-4">
+        {{ faq.content | markdownify }}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

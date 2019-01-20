@@ -1,0 +1,16 @@
+files:
+  - title: The Art Of Shooting
+    size: 6.9 MB
+    type: PDF
+    description: Something goes here to describe the file being uploads
+    path: /path/to/uploaded_file.pdf
+  - title: The Art Of Shooting 2
+    size: 6.9 MB
+    type: PDF
+    description: Something goes here to describe the file being uploads
+    path: /path/to/uploaded_file.pdf
+  - title: The Art Of Shooting 3
+    size: 6.9 MB
+    type: PDF
+    description: Something goes here to describe the file being uploads
+    path: /path/to/uploaded_file.pdf

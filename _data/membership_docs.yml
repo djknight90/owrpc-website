@@ -1,0 +1,16 @@
+files:
+  - title: Membership Application & Renewal (2019)
+    size: 150 KB
+    type: PDF
+    description: OWRPC New Member and Renewal Application
+    path: /assets/docs/OWRPC-New-Member-and-Renewal-Form.pdf
+  - title: Classes of Memberships & Fees
+    size: 73 KB
+    type: PDF
+    description: Types of memberships available and their respective fees
+    path: /assets/docs/OWRPC-Membership-Classes.pdf
+  - title: Payment Information
+    size: 68 KB
+    type: PDF
+    description: Membership costs and available payment methods
+    path: /assets/docs/OWRPC-Membership-Payment-Methods.pdf
