@@ -4,6 +4,9 @@ auto_deploy: true
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: _data/footer-links-1.yml
+  label: Footer Links
 - type: jekyll-posts
   label: Posts
   create: all
