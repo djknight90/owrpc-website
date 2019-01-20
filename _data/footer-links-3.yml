@@ -1,0 +1,11 @@
+links_list_title: Contact Us
+links:
+
+- title: Send a message
+  url: /contact-us
+
+- title: Find us
+  url: /find-us
+
+- title: Target Shooter Magazine
+  url: http://www.targetshooter.co.uk

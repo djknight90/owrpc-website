@@ -1,0 +1,11 @@
+# Site settings
+title: "OWRPC"
+email:
+author:
+description:
+url:
+
+# Build settings
+permalink: :title/
+sass:
+  sass_dir: css

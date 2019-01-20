@@ -1,0 +1,97 @@
+<!-- NAVIGATION
+================================================== -->
+
+<nav class="navbar navbar-expand-lg navbar-light" id="topnav">
+    <div class="container">
+
+      <!-- Toggler -->
+      <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Brand -->
+      <a class="navbar-brand mr-auto" href="/">
+        <img src="/assets/img/logo.png" alt="..." class="navbar-brand-img">
+      </a>
+
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse" id="navbar">
+
+
+        <!-- Navigation -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link {% if page.url == "/" %} active {% endif %}" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {% if page.url == "/about-us/" %} active {% endif %}" href="/about-us">About The Club</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle {% if page.url contains "disciplines" %} active{% endif %}" href="#" id="topnavPages" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Disciplines
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="topnavPages">
+              <li>
+                <a class="dropdown-item {% if page.url == "/disciplines/practical-rifle/" %} active{% endif %}" href="/disciplines/practical-rifle">
+                  Practical Rifle
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item {% if page.url == "/disciplines/practical-shotgun/" %} active{% endif %}" href="/disciplines/practical-shotgun">
+                  Practical Shotgun
+                </a>
+              </li>
+              <!--<li>
+                <a class="dropdown-item {% if page.url == "/disciplines/gallery-rifle/" %} active{% endif %}" href="/disciplines/gallery-rifle">
+                  Gallery Rifle
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item {% if page.url == "/disciplines/full-bore/" %} active{% endif %}" href="/disciplines/full-bore">
+                  Full Bore
+                </a>
+              </li>-->
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle {% if page.url contains "membership" %} active{% endif %}" href="#" id="topnavDashboards" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Membership
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="topnavDashboards">
+              <li>
+                <a class="dropdown-item {% if page.url == "/membership/membership-info/" %} active{% endif %}" href="/membership/membership-info">
+                  Membership Info
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item {% if page.url == "/membership/full-membership/" %} active{% endif %}" href="/membership/full-membership">
+                  Learn to Shoot with us
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item {% if page.url == "/membership/young-members/" %} active{% endif %}" href="/membership/young-members">
+                  Young Members
+                </a>
+              </li>
+              <!--<li>
+                <a class="dropdown-item {% if page.url == "/membership/air-gun/" %} active{% endif %}" href="/membership/air-gun">
+                  Air Gun
+                </a>
+              </li>-->
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {% if page.url == "/gallery/" %} active {% endif %}" href="/gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {% if page.url == "/contact-us/" %} active {% endif %}" href="/contact-us">Contact Us</a>
+          </li>
+
+
+        </ul>
+        <button class="btn btn-white ml-3" type="button" name="button"><span class="fe fe-log-in mr-3"></span>Member Login</button>
+
+      </div>
+
+    </div> <!-- / .container -->
+  </nav>

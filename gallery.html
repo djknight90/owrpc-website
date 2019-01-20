@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="header mt-md-5">
+  <div class="header-body">
+    <div class="row align-items-center">
+      <div class="col">
+
+        <!-- Pretitle -->
+
+        <!-- Title -->
+        <h1 class="header-title">
+          Gallery
+        </h1>
+
+      </div>
+    </div> <!-- / .row -->
+
+  </div>
+</div>
+
+<div class="row">
+  {% for image in site.static_files %}
+      {% if image.path contains 'img/galleries/main-gallery' %}
+      <div class="col-12 col-md-6 col-lg-3 mb-3">
+        <a href="{{ site.baseurl }}{{ image.path }}">
+        <img class="image-responsive w-100" src="{{ site.baseurl }}{{ image.path }}" />
+        </a>
+      </div>
+      {% endif %}
+  {% endfor %}
+</div>

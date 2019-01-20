@@ -1,0 +1,53 @@
+<footer class="footer pt-4 my-md-5 pt-md-5 border-top bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md">
+        <img class="mb-2" src="/assets/img/logo.png" alt="" width="50">
+        <small class="d-block mb-3 text-muted">&copy; 1977 - {{ "today" | date: "%Y" }}</small>
+      </div>
+      <div class="col-6 col-md">
+        <h5 class="text-white">{{ site.data.footer-links-1.links_list_title }}</h5>
+        <ul class="list-unstyled text-small">
+           {% for item in site.data.footer-links-1.links %}
+              <li><a class="text-muted" href="{{ item.url }}">{{ item.title }}</a></li>
+           {% endfor %}
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5 class="text-white">{{ site.data.footer-links-2.links_list_title }}</h5>
+        <ul class="list-unstyled text-small">
+           {% for item in site.data.footer-links-2.links %}
+              <li><a class="text-muted" href="{{ item.url }}">{{ item.title }}</a></li>
+           {% endfor %}
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5 class="text-white">{{ site.data.footer-links-3.links_list_title }}</h5>
+        <ul class="list-unstyled text-small">
+           {% for item in site.data.footer-links-3.links %}
+              <li><a class="text-muted" href="{{ item.url }}">{{ item.title }}</a></li>
+           {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  <!-- JAVASCRIPT
+  ================================================== -->
+  <!-- Libs JS -->
+  <script src="/assets/libs/jquery/dist/jquery.min.js"></script>
+  <script src="/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/libs/chart.js/dist/Chart.min.js"></script>
+  <script src="/assets/libs/chart.js/Chart.extension.min.js"></script>
+  <script src="/assets/libs/highlightjs/highlight.pack.min.js"></script>
+  <script src="/assets/libs/flatpickr/dist/flatpickr.min.js"></script>
+  <script src="/assets/libs/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+  <script src="/assets/libs/list.js/dist/list.min.js"></script>
+  <script src="/assets/libs/quill/dist/quill.min.js"></script>
+  <script src="/assets/libs/dropzone/dist/min/dropzone.min.js"></script>
+  <script src="/assets/libs/select2/dist/js/select2.min.js"></script>
+
+  <!-- Theme JS -->
+  <script src="/assets/js/theme.min.js"></script>
+
+      </footer>
