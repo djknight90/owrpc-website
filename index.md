@@ -2,40 +2,17 @@
 layout: default
 title: "Home"
 ---
+<img class="rounded mx-auto mt-5 d-block" src="assets/img/logo.png" alt="Full bore shooting at OWRPC">
 
 
-<div id="carouselExampleIndicators" class="carousel slide mb-5" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner rounded-bottom">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="assets/img/covers/header-cover-1.jpg" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="assets/img/covers/header-cover-1.jpg" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="assets/img/covers/header-cover-1.jpg" alt="Third slide">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
 
-  <!-- Main Page Content -->
+<!-- Main Page Content -->
 
-<h1 class="display-4">Old Windsor Rifle & Pistol Club</h1>
-Target rifle club in Old Windsor
+<h1 class="display-4 text-center">Old Windsor Rifle & Pistol Club</h1>
+<p class="text-center">Target rifle club since 1977</p>
 <hr class="my-4">
+
+<img class="d-block w-100 rounded" src="assets/img/galleries/home-slider/header-cover-1.jpg" alt="Full bore shooting at OWRPC">
 
 Welcome to our web site. If you live in the area and are interested in any form of target shooting then you have come to the right place. Have a look around our web site and get in touch if you’d like to join us.
 
