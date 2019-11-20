@@ -24,11 +24,9 @@ title: "Gallery"
 <div class="card-columns">
   {% for image in site.static_files %}
       {% if image.path contains 'img/galleries/main-gallery' %}
-        <div class="card">
-          <a href="{{ site.baseurl }}{{ image.path }}">
+        <a href="{{ site.baseurl }}{{ image.path }}" class="card">
           <img class="card-img" src="{{ site.baseurl }}{{ image.path }}" />
-          </a>
-        </div>
+        </a>
       {% endif %}
   {% endfor %}
 </div>
