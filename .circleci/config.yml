@@ -50,8 +50,7 @@ jobs:
           command: ~/.local/bin/aws s3 sync ./_site s3://owrpc.co.uk/ --delete --acl public-read
       - run:
           name: "Invalidate CloudFront Cache"
-          command: |
-            aws cloudfront create-invalidation --distribution-id E2YWHSS2FRG08N --paths /*
+          command: ~/.local/bin/aws cloudfront create-invalidation --distribution-id E2YWHSS2FRG08N --paths /*
 workflows:
   version: 2
   test-deploy:
