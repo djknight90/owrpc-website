@@ -4,18 +4,9 @@ footer-links:
       - page: The NRA
         url: https://nra.org.uk
         target: blank
-      - page: Thames Valley Guns
-        url: http://www.thamesvalleyguns.co.uk
-        target: blank
       - page: Target Shooter Magazine
         url: http://www.targetshooter.co.uk
         target: blank
-  - title: More Info
-    subfolderitems:
-      - page: FAQs
-        url: /faqs.html
-      - page: Downloads
-        url: /downloads.html
   - title: Contact
     subfolderitems:
       - page: Send a message

@@ -15,20 +15,10 @@ The Old Windsor Rifle & Pistol Club (OWRPC) was formed in 1977 and provides its 
 * Practical Shotgun
 * Mini Rifle
 
+It is fully ventilated and soundproofed, and allows up to 4 shooters at a time. Attached to the range is a fully equipped clubhouse complete with a range office, break room, training facility, onsite parking, toilets and a small kitchen.
+
 Our fullbore enthusiasts meet every month on MoD ranges at Ash in Surrey, Longmoor in Hampshire and Otmoor in Oxfordshire. General shoots allow members to test their rifles and make adjustments at distances of 100 to 600 yards. Other activities include Electric Target Range (ETR), McQueen (precision snap shooting) and a variety of club competitions.
 
 We are a friendly club and welcome new members of all abilities. The only requirements are that you are a responsible person with a genuine interest in shooting sports.
 
-<div class="header mt-md-5">
-  <div class="header-body">
-    <div class="row align-items-center">
-      <div class="col">
-        <h1 class="header-title">Facilities</h1>
-      </div>
-    </div>
-  </div>
-</div>
-
-**TODO** Add some content here about what facilities we have.
-
-Suggest it's something along the lines of the content that's in the PDF presentation on the current site, but embedded directly
+Please note we do not currently offer a firearm storage service.
