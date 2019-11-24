@@ -5,7 +5,7 @@ title: "Contact Us"
 
 {% include page-header.html %}
 
-<form class="mb-4" method="POST" action="https://formspree.io/enquiries@owrpc.co.uk">
+<form class="mb-4" method="POST" action="https://formspree.io/xpzzgvbe">
   <div class="row">
     <div class="col-12 col-md-6">
       <div class="form-group">
@@ -37,6 +37,12 @@ title: "Contact Us"
         <textarea class="form-control" rows="5" name="message" required=true></textarea>
       </div>
     </div>
+    <div class="col-12">
+      <div class="form-group">
+        <div class="g-recaptcha" data-sitekey="6LdDV8QUAAAAAKYIzP4rvQ0Q3Z__TonTuIPRNamR" required=true></div>
+      </div>
+    </div>
+    <input type="text" name="_gotcha" style="display:none"/>
   </div>
   <button type="submit" class="btn btn-primary">
     Send Message
