@@ -5,6 +5,10 @@ title: "Membership Info"
 
 {% include page-header.html %}
 
+<div class="alert alert-info" role="alert">
+  <span class="fe fe-info mr-3"></span><strong>Please Note:</strong> In order to become a member you must be referred by an existing full member. Please do not contact us regarding new applications unless you have been referred.
+</div>
+
 OWRPC is a Home Office approved club with approximately 80 members and is affiliated to the National Rifle Association (NRA). The Club is managed by a committee elected by the members at the Annual General Meeting.
 
 A number of members are qualified NRA Range Conducting Officers, and the Club is licensed to use MoD Gallery Ranges. The Club meets on one of these ranges every month, and competitions for practical and classic rifles are held every year.
