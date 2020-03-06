@@ -7,9 +7,11 @@ footer-links:
       - page: Target Shooter Magazine
         url: http://www.targetshooter.co.uk
         target: blank
-  - title: Contact
+  - title: More
     subfolderitems:
       - page: Send a message
         url: /contact-us.html
       - page: Find us
         url: /find-us.html
+      - page: Privacy Policy
+        url: /privacy.html
