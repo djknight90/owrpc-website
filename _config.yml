@@ -16,6 +16,7 @@
 title: Old Windsor Rifle & Pistol Club - Target Shooting Club
 meta-description: A friendly private members target shooting club based in the heart of Old Windsor since 1977.
 email: admin@owrpc.co.uk
+accepting_new_members: true
 
 sass:
   sass_dir: css
