@@ -24,12 +24,17 @@
           <li class="nav-item">
             <a class="nav-link {% if page.url == "/about-us.html" %} active {% endif %}" href="/about-us.html">About The Club</a>
           </li>
-          <!--
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle {% if page.url contains "disciplines" %} active{% endif %}" href="#" id="topnavPages" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Disciplines
             </a>
             <ul class="dropdown-menu" aria-labelledby="topnavPages">
+              <li>
+                <a class="dropdown-item {% if page.url == "/disciplines/deer-stalking.html" %} active{% endif %}" href="/disciplines/deer-stalking.html">
+                  Deer Stalking <span class="badge badge-soft-success">New!</span>
+                </a>
+              </li>
               <li>
                 <a class="dropdown-item {% if page.url == "/disciplines/practical-rifle.html" %} active{% endif %}" href="/disciplines/practical-rifle.html">
                   Practical Rifle
@@ -40,19 +45,8 @@
                   Practical Shotgun
                 </a>
               </li>
-              <li>
-                <a class="dropdown-item {% if page.url == "/disciplines/gallery-rifle/" %} active{% endif %}" href="/disciplines/gallery-rifle">
-                  Gallery Rifle
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item {% if page.url == "/disciplines/full-bore/" %} active{% endif %}" href="/disciplines/full-bore">
-                  Full Bore
-                </a>
-              </li>
             </ul>
           </li>
-          -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle {% if page.url contains "membership" %} active{% endif %}" href="#" id="topnavDashboards" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Membership
