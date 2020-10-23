@@ -7,10 +7,10 @@ title: "Deer Stalking"
 
 <div class="row mb-5">
   <div class="col-sm-6">
-    <img class="d-block w-100 mx-auto rounded" src="/assets/img/pages/deer-stalking/deer-1.jpg">
+    <img class="d-block w-100 mx-auto rounded mt-3" src="/assets/img/pages/deer-stalking/deer-1.jpg">
   </div>
   <div class="col-sm-6">
-    <img class="d-block w-100 mx-auto rounded" src="/assets/img/pages/deer-stalking/deer-2.png">
+    <img class="d-block w-100 mx-auto rounded mt-3" src="/assets/img/pages/deer-stalking/deer-2.png">
   </div>
 </div>
 
@@ -28,10 +28,10 @@ Individual shooters will be escorted by a qualified Gamekeeper until they are ac
 
 <div class="row mb-5">
   <div class="col-sm-6">
-    <img class="d-block w-100 mx-auto rounded" src="/assets/img/pages/deer-stalking/land-1.jpg">
+    <img class="d-block w-100 mx-auto rounded mt-3" src="/assets/img/pages/deer-stalking/land-1.jpg">
   </div>
   <div class="col-sm-6">
-    <img class="d-block w-100 mx-auto rounded" src="/assets/img/pages/deer-stalking/land-2.jpg">
+    <img class="d-block w-100 mx-auto rounded mt-3" src="/assets/img/pages/deer-stalking/land-2.jpg">
   </div>
 </div>
 
