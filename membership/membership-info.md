@@ -15,7 +15,7 @@ A number of members are qualified NRA Range Conducting Officers, and the Club is
 
 In addition to the regular programme of shooting activities, the Club organises visits to places of interest such as military museums and firepower demonstrations.
 
-Members pay £2 for use of the indoor range. Fullbore shoots are £20 for static targets or £30 for electric targets (fall when hit).
+Members pay £5 for use of the indoor range. Fullbore shoots are £20.
 
 PLEASE NOTE: The minimum age for members is 14, and anyone under 18 must be accompanied at all times by a parent or guardian.
 
