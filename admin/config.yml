@@ -21,12 +21,16 @@ collections:
           - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'navigation'
-    label: 'Navigation Menus'
+  - name: settings
+    label: Settings
     files:
-      - label: 'Footer Links'
-        name: 'footer_links'
-        file: '_data/footer-links.yml'
-        format: 'yml'
+      - file: _data/footer-links.yml
+        label: Footer Links
+        name: footer-links
         fields:
-          - { label: 'Title', name: 'title', widget: 'hidden' }
+          - label: Links
+            name: footer-links
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Sub Folder, name: subfolderitems, widget: list}
