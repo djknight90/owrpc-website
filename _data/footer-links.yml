@@ -17,3 +17,4 @@ footer-links:
         url: /privacy.html
       - page: Members Area Login
         url: https://owrpc.range-mate.co.uk
+        target: blank
