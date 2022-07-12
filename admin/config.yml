@@ -39,4 +39,4 @@ collections:
                 fields:
                   - { label: 'Name', name: 'page', widget: 'string' }
                   - { label: 'URL', name: 'url', widget: 'string' }
-                  - { label: 'Target', name: 'target', widget: 'string' }
+                  - { label: 'Target', name: 'target', widget: 'string', required: false }
