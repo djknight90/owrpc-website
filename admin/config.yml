@@ -3,6 +3,7 @@
 backend:
   name: git-gateway
 media_folder: 'assets/uploads'
+logo_url: https://owrpc.co.uk/assets/img/logo.png
 collections:
   - name: 'blog'
     label: 'Blog'
