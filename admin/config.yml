@@ -21,3 +21,10 @@ collections:
           - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'navigation'
+    label: 'Navigation Menus'
+    files:
+      - label: 'Footer Links'
+        name: 'footer_links'
+        file: '_data/footer-links.yml'
+        format: 'yml'
