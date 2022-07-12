@@ -28,3 +28,5 @@ collections:
         name: 'footer_links'
         file: '_data/footer-links.yml'
         format: 'yml'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'hidden' }
