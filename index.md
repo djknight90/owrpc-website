@@ -2,7 +2,7 @@
 layout: default
 title: "Home"
 ---
-<img class="mx-auto mt-5 d-block" style="height: 150px;" src="assets/img/logo-black.png" alt="Full bore shooting at OWRPC">
+<img class="mx-auto mt-5 d-block" style="height: 150px;" src="assets/img/logo.png" alt="Full bore shooting at OWRPC">
 
 
 
