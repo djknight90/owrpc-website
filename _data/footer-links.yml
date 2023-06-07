@@ -9,6 +9,8 @@ footer-links:
         target: blank
   - title: More
     subfolderitems:
+      - page: Downloads
+        url: /downloads.html
       - page: Send a message
         url: /contact-us.html
       - page: Find us
