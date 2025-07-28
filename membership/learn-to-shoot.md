@@ -46,4 +46,4 @@ The adults course is available to all UK residents over the age of 18, and the j
 
 ## How to apply
 
-You should [contact us](/contact-us.html) if you're interested in joining. We will arrange a quick phone call to discuss everything, and then you'll be send an application for to fill out and return.
+You should [submit a new membership enquiry](/new-member) if you're interested in joining.
