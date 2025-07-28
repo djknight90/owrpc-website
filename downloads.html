@@ -4,6 +4,52 @@ title: Downloads
 
 ---
 {% include page-header.html %}
+<h2>Basic Targets</h2>
+<div class="card">
+  <div class="card-body">
+    <ul class="list-group list-group-lg list-group-flush list my-n4">
+      {% for pdf in site.static_files %}
+          {% if pdf.path contains 'docs/club-docs' %}
+            <li class="list-group-item">
+              <div class="row align-items-center">
+                <div class="col-auto">
+                  <!-- Avatar -->
+                  <a href="{{ site.baseurl }}{{ pdf.path }}" class="avatar avatar-lg">
+                    <img src="{{ pdf.path | replace: 'pdf', 'png'}}" alt="..." class="avatar-img rounded">
+                  </a>
+                </div>
+                <div class="col ml-n2">
+                  <!-- Title -->
+                  <h4 class="mb-1 name">
+                    <a href="{{ site.baseurl }}{{ pdf.path }}">{{ pdf.basename | remove: "OWRPC " | split: " - " | first }}</a>
+                  </h4>
+                  <!-- Text -->
+                  <p class="card-text small text-muted mb-1">
+                    {{ pdf.path | prepend: '.' | file_size | divided_by: 1000000.0 | round: 2 }} MB
+                  </p>
+                  <!-- Time -->
+                  <p class="card-text small text-muted">
+                    Last Updated on {{ pdf.modified_time | date: "%b %d, %Y" }}
+                  </p>
+                </div>
+                <div class="col-auto">
+                  <!-- Button -->
+                   <a href="{{ site.baseurl }}{{ pdf.path }}" class="btn btn-sm btn-white d-none d-md-inline-block">
+                    View
+                  </a>
+                  <a href="{{ site.baseurl }}{{ pdf.path }}" class="btn btn-sm btn-white d-none d-md-inline-block" download="{{ pdf.basename }}">
+                    Download
+                  </a>
+                </div>
+              </div> <!-- / .row -->
+            </li>
+          {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<h1>Targetry Downloads</h1>
 
 <h2>Basic Targets</h2>
 <div class="card">
