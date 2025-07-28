@@ -12,12 +12,6 @@ title: Downloads
           {% if pdf.path contains 'docs/club-docs' %}
             <li class="list-group-item">
               <div class="row align-items-center">
-                <div class="col-auto">
-                  <!-- Avatar -->
-                  <a href="{{ site.baseurl }}{{ pdf.path }}" class="avatar avatar-lg">
-                    <img src="{{ pdf.path | replace: 'pdf', 'png'}}" alt="..." class="avatar-img rounded">
-                  </a>
-                </div>
                 <div class="col ml-n2">
                   <!-- Title -->
                   <h4 class="mb-1 name">
@@ -29,7 +23,7 @@ title: Downloads
                   </p>
                   <!-- Time -->
                   <p class="card-text small text-muted">
-                    Last Updated on {{ pdf.modified_time | date: "%b %d, %Y" }}
+                    Last Updated on {{ pdf.created_time | date: "%b %d, %Y" }}
                   </p>
                 </div>
                 <div class="col-auto">
