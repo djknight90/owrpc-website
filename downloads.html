@@ -21,10 +21,6 @@ title: Downloads
                   <p class="card-text small text-muted mb-1">
                     {{ pdf.path | prepend: '.' | file_size | divided_by: 1000000.0 | round: 2 }} MB
                   </p>
-                  <!-- Time -->
-                  <p class="card-text small text-muted">
-                    Last Updated on {{ pdf.created_time | date: "%b %d, %Y" }}
-                  </p>
                 </div>
                 <div class="col-auto">
                   <!-- Button -->
