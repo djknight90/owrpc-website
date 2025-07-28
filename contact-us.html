@@ -5,11 +5,9 @@ title: "Contact Us"
 
 {% include page-header.html %}
 
-{% if site.accepting_new_members == false %}
-<div class="alert alert-warning" role="alert">
-  <span class="fe fe-info mr-3"></span><strong>Membership is currently at capacity.</strong> Unfortunately we are not currently accepting applications from new members. Please check back later.
+<div class="alert alert-info" role="alert">
+  <span class="fe fe-info mr-3"></span>This form is for <strong>general enquiries only.</strong> For new membership enquiries, <a class="alert-link" href="/new-members">please go to this page</a>
 </div>
-{% endif %}
 
 <form class="mb-4" method="POST" action="https://formspree.io/xpzzgvbe">
   <div class="row">
